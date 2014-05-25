@@ -1,5 +1,7 @@
 ## These functions will cache the inverse of a matrix. First a special matrix object is created that can cache the inverse, 
 ## after which the inverse of the special matrix object is calculated. 
+## Note that they work similar to the example in the assignment, where cached the mean of a vector. The same approach
+## is used, but in this case the inverse of the matrix can be cached.
 
 ## The makeCacheMatrix creates a special matrix object that can cache its inverse. 
 ## First the value of the matrix is set, then I get the value of the matrix. 
